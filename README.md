@@ -18,8 +18,8 @@ A simple command-line interface for interacting with BMAD-METHOD agents. This de
 
 ```bash
 # Clone the cli-demo repository
-git clone [repository-url] cli-demo
-cd cli-demo
+git clone https://github.com/bookmark/bmad-cli.git
+cd bmad-cli
 
 # Install dependencies
 npm install
