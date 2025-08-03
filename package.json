@@ -1,0 +1,38 @@
+{
+  "name": "bmad-cli-demo",
+  "version": "1.0.0",
+  "description": "Simple CLI interface for BMAD-METHOD",
+  "main": "index.js",
+  "bin": {
+    "bmad-cli": "./index.js"
+  },
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "node --watch index.js"
+  },
+  "keywords": [
+    "bmad",
+    "cli",
+    "ai",
+    "chat",
+    "agent"
+  ],
+  "author": "BMAD Community",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "inquirer": "^9.2.12",
+    "marked": "^11.1.0",
+    "marked-terminal": "^6.2.0",
+    "fs-extra": "^11.2.0",
+    "js-yaml": "^4.1.0",
+    "commander": "^11.1.0",
+    "openai": "^4.28.0",
+    "tiktoken": "^1.0.10",
+    "ora": "^7.0.1"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

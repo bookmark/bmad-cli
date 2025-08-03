@@ -1,0 +1,14 @@
+{
+  "bmadPath": "../BMAD-METHOD",
+  "enabledPacks": [
+    "problem-solver",
+    "market-researcher",
+    "product-manager",
+    "strategy-consulting",
+    "pmo-agile",
+    "startup-advisor"
+  ],
+  "exportDir": "./exports",
+  "autoSave": true,
+  "version": "1.0.0"
+}
